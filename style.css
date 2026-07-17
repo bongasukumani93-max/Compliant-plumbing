@@ -77,5 +77,26 @@ body {
   transform: translateY(-1px);
 }
 
+/*For the logo*/
+.logo {
+  width: 50px;
+  height: auto;
+}
 
+/*Contact section CSS*/
 
+.icon-box {
+  width: 60px;
+  height: 60px;
+
+  background: forestgreen;
+
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 28px;
+}
