@@ -2,12 +2,30 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8fbff;
+  background-color: #8ed1fc;
   color: #123;
 }
 
 .services-hero {
   background: linear-gradient(135deg, #eef6ff 0%, #f8fbff 100%);
+}
+
+.list-group {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(18, 51, 84, 0.12);
+}   
+
+.list-group-item {
+  border: 1px solid #000000;
+  padding: 1rem 1.5rem;
+  background-color: #0693e3;;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #fcfaf9;
+  box-shadow: 0 0.5rem 1rem rgba(18, 51, 84, 0.12);
 }
 
 .list-group-item-action {
@@ -27,3 +45,10 @@ body {
 .service-card {
   border-radius: 1rem;
 }
+
+.service-card img {
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
