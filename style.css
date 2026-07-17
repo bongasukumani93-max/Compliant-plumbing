@@ -1,1 +1,22 @@
-/*CSS will be added by the group*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fbff;
+  color: #123;
+}
+
+.services-hero {
+  background: linear-gradient(135deg, #eef6ff 0%, #f8fbff 100%);
+}
+
+.list-group-item-action {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-group-item-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(18, 51, 84, 0.12);
+}
+
+.service-card {
+  border-radius: 1rem;
+}
