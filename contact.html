@@ -17,16 +17,13 @@
 </head>
 <body>
 
-    <!--Durandt section-->
-
     <!--Navbar section-->
-
     <header>
-        <div class="px-3 py-2 text-bg-dark border-bottom">
+        <div class="px-3 py-2 text-bg-success border-bottom">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                        <img src="Images/Logo.jpg" class="logo" alt="Compliant Plumbing Logo">
+                        <img src="Images/Logo 4.png" class="logo" alt="Compliant Plumbing Logo">
                     </a>
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <li>
@@ -65,9 +62,25 @@
                 </div>
             </div>
         </div>
-    </header>
     
     <!--Hero section-->
+    <section class="services-hero py-5" id="services-hero">
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge text-bg-primary mb-3">IOPSA Approved</span>
+                    <h1 class="heading fw-bold lh-1 mb-3">Contacts</h1>
+                    <p class="fs-5 hero-text mx-auto">
+                        At Compliant Plumbing, we’re here to make your plumbing experience as smooth and stress-free as
+                        possible. Whether you have a question, need assistance, or want to schedule a service, our friendly
+                        and knowledgeable team is ready to help.
+                        <br>
+                        Reach out to us today and let us know how we can assist you. Your plumbing needs are our priority!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Contact section-->
     <div class="container py-5">
@@ -76,40 +89,40 @@
             <!--contact information-->
             <div class="col-lg-5">
                 <p class="text-primary fw-bold">CONTACT US</p>
-                <h2 class="display-3 fw-bold">
+                <h2 class="display-5 fw-bold">
                     Need Assistance? <br>
                     Reach out
                 </h2>
 
                 <!--Phone number-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div>
-                        <h4>Company Phone</h4>
+                        <h4>Company Phone:</h4>
                         <h3 class="text-primary"> +27 65 917 9997</h3>
                     </div>
                 </div>
 
                 <!--Email-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-regular fa-envelope-open"></i>
                     </div>
                     <div>
-                        <h4>Company Email</h4>
+                        <h4>Company Email:</h4>
                         <h3 class="text-primary"> compliantplumb@gmail.com </h3>
                     </div>
                 </div>
 
                 <!--Address-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                        <h4>Company Address</h4>
+                        <h4>Company Address:</h4>
                         <h3 class="text-primary"> Corner Waterloo &, Emden Rd, Primrose, Germiston, 1401 </h3>
                     </div>
                 </div>
@@ -118,19 +131,47 @@
             <!--Contact form-->
             <div class="col-lg-7">
                 <!--Basic for the form-->
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+                <form class="d-grip gap-3">
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">First Names</label>
+                            <input type="text" class="form-control" placeholder="First names" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="+27 00 000 0000">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message for us"
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary text-black">Submit Form</button>
+                </form>
             </div>
         </div>
     </div>
 
+    <!--Embedded Map section-->
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.364442142315!2d28.180290064116143!3d-26.17549926447278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951167505cb087%3A0x890c0829a9fdae23!2sEmden%20Rd%20%26%20Waterloo%20Rd%2C%20Gerdview%2C%20Germiston%2C%201401!5e0!3m2!1sen!2sza!4v1784369769073!5m2!1sen!2sza"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+
     <!--Footer section-->
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
