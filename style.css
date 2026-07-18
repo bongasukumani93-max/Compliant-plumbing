@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 /*CSS will be added by the group*/
-.logo{
-    width: 100px;
-    height: 100px;
+.logo {
+  width: 50px;
+  height: auto;
 }
-=======
+
 /* Service Page */
 
 body {
@@ -125,23 +124,6 @@ body {
   transform: translateY(-1px);
 }
 
-.logo {
-  width: 50px;
-  height: auto;
-}
-
-.icon-box {
-  width: 60px;
-  height: 60px;
-  background: forestgreen;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 28px;
-}
-
 .badge {
   background-color: #ffd43b !important;
   color: rgb(6, 6, 6) !important;
@@ -149,4 +131,28 @@ body {
   padding: 0.55rem 0.85rem;
   border-radius: 999px;
 }
->>>>>>> d8fa6892da85471199f5ba8ded183d0a11665a7a
+
+/*Contact Page*/
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: forestgreen;
+  border-radius: 15px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+}
+
+.form-control {
+  height: 55px;
+  border-radius: 10px;
+}
+
+textarea.form-control {
+  height: 180px;
+  resize: none;
+}

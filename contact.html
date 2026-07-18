@@ -22,11 +22,11 @@
     <!--Navbar section-->
 
     <header>
-        <div class="px-3 py-2 text-bg-dark border-bottom">
+        <div class="px-3 py-2 text-bg-success border-bottom">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                        <img src="Images/Logo.jpg" class="logo" alt="Compliant Plumbing Logo">
+                        <img src="Images/Logo 4.png" class="logo" alt="Compliant Plumbing Logo">
                     </a>
                     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <li>
@@ -65,9 +65,25 @@
                 </div>
             </div>
         </div>
-    </header>
     
     <!--Hero section-->
+    <section class="services-hero py-5" id="services-hero">
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-8 text-center">
+                    <span class="badge text-bg-primary mb-3">IOPSA Approved</span>
+                    <h1 class="heading fw-bold lh-1 mb-3">Contacts</h1>
+                    <p class="fs-5 hero-text mx-auto">
+                        At Compliant Plumbing, we’re here to make your plumbing experience as smooth and stress-free as
+                        possible. Whether you have a question, need assistance, or want to schedule a service, our friendly
+                        and knowledgeable team is ready to help.
+                        <br>
+                        Reach out to us today and let us know how we can assist you. Your plumbing needs are our priority!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Contact section-->
     <div class="container py-5">
@@ -76,13 +92,13 @@
             <!--contact information-->
             <div class="col-lg-5">
                 <p class="text-primary fw-bold">CONTACT US</p>
-                <h2 class="display-3 fw-bold">
+                <h2 class="display-5 fw-bold">
                     Need Assistance? <br>
                     Reach out
                 </h2>
 
                 <!--Phone number-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-solid fa-phone"></i>
                     </div>
@@ -93,7 +109,7 @@
                 </div>
 
                 <!--Email-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-regular fa-envelope-open"></i>
                     </div>
@@ -104,7 +120,7 @@
                 </div>
 
                 <!--Address-->
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <div class="icon-box me-4">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
@@ -118,17 +134,37 @@
             <!--Contact form-->
             <div class="col-lg-7">
                 <!--Basic for the form-->
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+                <form class="d-grip gap-3">
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">First Names</label>
+                            <input type="text" class="form-control" placeholder="First names" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message for us"
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary text-black">Submit Form</button>
+                </form>
             </div>
         </div>
     </div>
+
+    <!--Embedded Map section-->
 
     <!--Footer section-->
 
