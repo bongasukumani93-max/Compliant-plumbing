@@ -105,57 +105,8 @@ body {
   padding: 0.55rem 0.85rem;
   border-radius: 999px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d8fa6892da85471199f5ba8ded183d0a11665a7a
 
-.hero-section{
-    position:relative;
-    min-height:100vh;
-    overflow:hidden;
-    /* Background image */
-    background-image:
-        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
-        url("Images/hero-bg.jpg");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-}
 
-/* Blue abstract overlay */
-.hero-section::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background-image:url("Images/abstract-overlay.jpg");
-    background-size:cover;
-    background-position:center;
-    opacity:.35;
-    mix-blend-mode:screen;
-}
-
-/* Content above overlay */
-
-.hero-section .container{
-    position:relative;
-    z-index:2;
-}
-.hero-worker{
-    max-height:500px;
-    object-fit:contain;
-    animation:float 4s ease-in-out infinite;
-}
-@keyframes float{
-    0%{
-        transform:translateY(0);
-    }
-    50%{
-        transform:translateY(-10px);
-    }
-    100%{
-        transform:translateY(0);
-    }
-=======
 
 /*Contact Page*/
 
@@ -184,8 +135,6 @@ textarea.form-control {
 
 .map-container {
   height: 300px;
-}
-
 }
 
 .map-container iframe {
