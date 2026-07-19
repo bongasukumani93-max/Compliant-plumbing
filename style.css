@@ -105,8 +105,6 @@ body {
   padding: 0.55rem 0.85rem;
   border-radius: 999px;
 }
-<<<<<<< HEAD
->>>>>>> d8fa6892da85471199f5ba8ded183d0a11665a7a
 
 .hero-section{
     position:relative;
@@ -154,7 +152,7 @@ body {
     100%{
         transform:translateY(0);
     }
-=======
+  }
 
 /*Contact Page*/
 
@@ -190,5 +188,200 @@ textarea.form-control {
   height: 100%;
   border: 0;
   border-radius: 15px;
->>>>>>> a6ae5595ec3bdf9215c1318acf9afcc306fb0d98
 }
+
+/* ================= About Section ================= */
+
+.about-section{
+    background:#f8f9fa;
+}
+
+.about-card{
+    background:#fff;
+    transition:0.3s ease;
+}
+
+.about-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.about-section h2{
+    position:relative;
+}
+
+.about-section h2::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:#0d6efd;
+    display:block;
+    margin-top:12px;
+    border-radius:10px;
+}
+
+.about-section img{
+    transition:0.3s ease;
+}
+
+.about-section img:hover{
+    transform:scale(1.03);
+}
+
+.about-section .btn{
+    border-radius:50px;
+    padding:12px 28px;
+}
+
+/* Mission & Vision */
+
+.mission-section{
+    background:#f8f9fa;
+}
+
+.mission-card{
+    transition:.3s ease;
+    border-radius:20px;
+}
+
+.mission-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15) !important;
+}
+
+.mission-card i{
+    transition:.3s;
+}
+
+.mission-card:hover i{
+    transform:scale(1.1);
+}
+
+/* ================= Meet Our Team ================= */
+
+.team-section{
+    background:#ffffff;
+}
+
+.team-section img{
+    border-radius:20px;
+    transition:.4s ease;
+}
+
+.team-section img:hover{
+    transform:scale(1.02);
+}
+
+.team-section h4{
+    font-size:2rem;
+}
+
+/* ================= Certifications ================= */
+
+.certifications-section{
+    background:#f8f9fa;
+}
+
+.certification-card{
+    border-radius:20px;
+    transition:.3s ease;
+}
+
+.certification-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15) !important;
+}
+
+.certification-card img{
+    transition:.3s ease;
+}
+
+.certification-card:hover img{
+    transform:scale(1.05);
+}
+
+/* ================= Testimonials ================= */
+
+.testimonial-section{
+    background:#ffffff;
+}
+
+.testimonial-section .card{
+    border-radius:20px;
+}
+
+.testimonial-section img{
+    object-fit:cover;
+    border:4px solid #0d6efd;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:#0d6efd;
+    border-radius:50%;
+    padding:20px;
+}
+
+/* Premium About Section */
+
+.about-section{
+    background: linear-gradient(135deg, #eef7ff, #ffffff);
+}
+
+
+.about-card{
+    background:white;
+    border:none;
+    transition:0.4s ease;
+}
+
+
+.about-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,0.15)!important;
+}
+
+
+.about-section h2{
+    color:#1f2937;
+    position:relative;
+}
+
+
+.about-section h2::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:#198754;
+    border-radius:20px;
+    margin-top:15px;
+}
+
+
+.about-section p{
+    line-height:1.8;
+}
+
+
+.about-section img{
+    height:450px;
+    width:100%;
+    object-fit:cover;
+    transition:0.4s ease;
+}
+
+
+.about-section img:hover{
+    transform:scale(1.03);
+}
+
+
+.about-section .btn{
+    border-radius:30px;
+    padding:12px 30px;
+    font-weight:600;
+}
+
+
+
