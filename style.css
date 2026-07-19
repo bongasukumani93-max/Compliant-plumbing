@@ -346,3 +346,12 @@ textarea.form-control {
     url('Images/darker-overlay.png') center/cover no-repeat;
 }
 
+.home-card {
+  border:none
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 51, 84, 0.15);
+}
