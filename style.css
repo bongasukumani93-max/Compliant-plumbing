@@ -261,3 +261,22 @@ textarea.form-control {
 .mission-card:hover i{
     transform:scale(1.1);
 }
+
+/* ================= Meet Our Team ================= */
+
+.team-section{
+    background:#ffffff;
+}
+
+.team-section img{
+    border-radius:20px;
+    transition:.4s ease;
+}
+
+.team-section img:hover{
+    transform:scale(1.02);
+}
+
+.team-section h4{
+    font-size:2rem;
+}
