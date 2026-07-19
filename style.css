@@ -304,3 +304,26 @@ textarea.form-control {
 .certification-card:hover img{
     transform:scale(1.05);
 }
+
+/* ================= Testimonials ================= */
+
+.testimonial-section{
+    background:#ffffff;
+}
+
+.testimonial-section .card{
+    border-radius:20px;
+}
+
+.testimonial-section img{
+    object-fit:cover;
+    border:4px solid #0d6efd;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color:#0d6efd;
+    border-radius:50%;
+    padding:20px;
+}
+
