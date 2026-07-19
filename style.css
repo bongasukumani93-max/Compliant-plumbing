@@ -147,12 +147,14 @@ textarea.form-control {
 /* ================= About Section ================= */
 
 .about-section{
-    background:#f8f9fa;
+    background: linear-gradient(135deg, #cfe8ff, #ffffff);
+    padding:80px 0;
 }
 
 .about-card{
-    background:#fff;
-    transition:0.3s ease;
+    background:white;
+    padding:40px;
+    border-radius:20px;
 }
 
 .about-card:hover{
@@ -346,3 +348,64 @@ textarea.form-control {
     url('Images/darker-overlay.png') center/cover no-repeat;
 }
 
+/* ABOUT PAGE STYLING */
+
+/* Page Background */
+body{
+    background: linear-gradient(180deg, #eef7ff 0%, #ffffff 100%);
+}
+
+/* Give every section breathing room */
+.about-section,
+.mission-section,
+.team-section,
+.certifications-section,
+.testimonial-section{
+    padding: 80px 0;
+}
+
+/* Main cards */
+.about-card,
+.mission-card,
+.certification-card,
+.testimonial-section .card{
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: all .3s ease;
+}
+
+/* Hover effect */
+.about-card:hover,
+.mission-card:hover,
+.certification-card:hover,
+.testimonial-section .card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,.12);
+}
+
+/* Team image */
+.team-section img{
+    border-radius:20px;
+    transition:.3s;
+}
+
+.team-section img:hover{
+    transform:scale(1.02);
+}
+
+/* Badge styling */
+.badge{
+    letter-spacing:1px;
+    font-weight:600;
+}
+
+/* Section headings */
+h2.display-5{
+    color:#0d6efd;
+}
+
+/* Buttons */
+.btn{
+    border-radius:50px;
+}
