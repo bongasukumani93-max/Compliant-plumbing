@@ -237,3 +237,27 @@ textarea.form-control {
     border-radius:50px;
     padding:12px 28px;
 }
+
+/* Mission & Vision */
+
+.mission-section{
+    background:#f8f9fa;
+}
+
+.mission-card{
+    transition:.3s ease;
+    border-radius:20px;
+}
+
+.mission-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15) !important;
+}
+
+.mission-card i{
+    transition:.3s;
+}
+
+.mission-card:hover i{
+    transform:scale(1.1);
+}
