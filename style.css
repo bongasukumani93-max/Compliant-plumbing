@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #b6b8bb;
+  background-color: white;
   color: #123;
 }
 
@@ -337,5 +337,12 @@ textarea.form-control {
     font-weight:600;
 }
 
+/* Home Page */
 
+.home-hero {
+    min-height: 500px;
+  background:
+    
+    url('Images/darker-overlay.png') center/cover no-repeat;
+}
 
