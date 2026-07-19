@@ -348,12 +348,9 @@ textarea.form-control {
     url('Images/darker-overlay.png') center/cover no-repeat;
 }
 
-/* ABOUT PAGE STYLING */
-
-/* Page Background */
-body{
-    background: linear-gradient(180deg, #eef7ff 0%, #ffffff 100%);
-}
+/* =========================
+   ABOUT PAGE STYLING
+========================= */
 
 /* Give every section breathing room */
 .about-section,
@@ -361,7 +358,7 @@ body{
 .team-section,
 .certifications-section,
 .testimonial-section{
-    padding: 80px 0;
+    padding:80px 0;
 }
 
 /* Main cards */
@@ -369,10 +366,10 @@ body{
 .mission-card,
 .certification-card,
 .testimonial-section .card{
-    background: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.08);
-    transition: all .3s ease;
+    background:#ffffff;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:all .3s ease;
 }
 
 /* Hover effect */
@@ -380,8 +377,8 @@ body{
 .mission-card:hover,
 .certification-card:hover,
 .testimonial-section .card:hover{
-    transform: translateY(-6px);
-    box-shadow: 0 18px 40px rgba(0,0,0,.12);
+    transform:translateY(-6px);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
 }
 
 /* Team image */
@@ -408,4 +405,23 @@ h2.display-5{
 /* Buttons */
 .btn{
     border-radius:50px;
+}
+
+
+/* =========================
+   HOME PAGE CARDS
+========================= */
+
+.home-card,
+.hero-round,
+.jumbo {
+    border:none;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-card:hover,
+.hero-round:hover,
+.jumbo:hover {
+    transform:translateY(-4px);
+    box-shadow:0 0.75rem 1.5rem rgba(18,51,84,0.15);
 }
