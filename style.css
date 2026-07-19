@@ -106,6 +106,7 @@ body {
   border-radius: 999px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d8fa6892da85471199f5ba8ded183d0a11665a7a
 
 .hero-section{
@@ -185,10 +186,54 @@ textarea.form-control {
   height: 300px;
 }
 
+}
+
 .map-container iframe {
   width: 100%;
   height: 100%;
   border: 0;
   border-radius: 15px;
->>>>>>> a6ae5595ec3bdf9215c1318acf9afcc306fb0d98
+}
+
+/* ================= About Section ================= */
+
+.about-section{
+    background:#f8f9fa;
+}
+
+.about-card{
+    background:#fff;
+    transition:0.3s ease;
+}
+
+.about-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+.about-section h2{
+    position:relative;
+}
+
+.about-section h2::after{
+    content:"";
+    width:70px;
+    height:4px;
+    background:#0d6efd;
+    display:block;
+    margin-top:12px;
+    border-radius:10px;
+}
+
+.about-section img{
+    transition:0.3s ease;
+}
+
+.about-section img:hover{
+    transform:scale(1.03);
+}
+
+.about-section .btn{
+    border-radius:50px;
+    padding:12px 28px;
 }
