@@ -342,16 +342,7 @@ textarea.form-control {
 .home-hero {
     min-height: 500px;
   background:
-    linear-gradient(135deg, rgba(22, 22, 22, 0.55) 0%, rgba(19, 19, 19, 0.65) 100%),
-    url('') center/cover no-repeat;
+    
+    url('Images/darker-overlay.png') center/cover no-repeat;
 }
-.home-hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background-image:url("");
-    background-size:cover;
-    background-position:center;
-    opacity:.35;
-    mix-blend-mode:screen;
-}
+
