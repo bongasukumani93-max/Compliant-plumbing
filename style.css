@@ -105,9 +105,6 @@ body {
   padding: 0.55rem 0.85rem;
   border-radius: 999px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d8fa6892da85471199f5ba8ded183d0a11665a7a
 
 .hero-section{
     position:relative;
@@ -155,7 +152,7 @@ body {
     100%{
         transform:translateY(0);
     }
-=======
+  }
 
 /*Contact Page*/
 
@@ -184,8 +181,6 @@ textarea.form-control {
 
 .map-container {
   height: 300px;
-}
-
 }
 
 .map-container iframe {
