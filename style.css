@@ -355,3 +355,23 @@ textarea.form-control {
   transform: translateY(-4px);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 51, 84, 0.15);
 }
+
+.hero-round {
+  border:none
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-round:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 51, 84, 0.15);
+}
+
+.jumbo {
+  border:none
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jumbo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 51, 84, 0.15);
+}
